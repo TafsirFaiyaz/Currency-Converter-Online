@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currency Converter</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>Todays Rate</h1>
+        <img src="./Assets/Screenshot 2024-06-23 031128.png" alt="Todays currency picture" class="center">
+
+        <div class="converter">
+            <h2>Currency Converter</h2>
+
+            <div class="form-group">
+                <label for="usd">USD</label>
+                <input type="number" id="usd" oninput="convertCurrency('usd')">
+            </div>
+
+            <div class="form-group">
+                <label for="gbp">GBP</label>
+                <input type="number" id="gbp" oninput="convertCurrency('gbp')">
+            </div>
+
+            <div class="form-group">
+                <label for="cad">CAD</label>
+                <input type="number" id="cad" oninput="convertCurrency('cad')">
+            </div>
+
+            <div class="form-group">
+                <label for="eur">EUR</label>
+                <input type="number" id="eur" oninput="convertCurrency('eur')">
+            </div>
+
+            <div class="form-group">
+                <label for="aud">AUD</label>
+                <input type="number" id="aud" oninput="convertCurrency('aud')">
+            </div>
+            
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
